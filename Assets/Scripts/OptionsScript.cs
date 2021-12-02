@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class OptionsScript : MonoBehaviour
 {
-    public int difficulty;
-    public void SetDifficulty (int a)
+    public float difficulty;
+
+
+    public void SetDifficulty (float a)
     {
         difficulty = a;
         Debug.Log(difficulty);
